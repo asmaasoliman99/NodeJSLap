@@ -1,0 +1,18 @@
+Search and Explain global error
+Q1. why global erroe hanling is important ?
+
+ANSWER: send message to user told him "there are an problem".
+        making code clean (Clean Code)
+        filter information to secure real information and save it  from hacking
+
+
+Q2. how it is impelmented using middleware ?
+
+ANSWER: if we have an error/problem in route , middleware using next().
+
+Q3 LOCAL ERROR & GLOBAL ERROR HANDLING 
+ANSWER: 
+
+LOCAL : solve a specific problem , it be on function/Route , we can repeate it.
+
+GLOBAL : solve any unexpected problem , we write it once in middleware or any separate file 
